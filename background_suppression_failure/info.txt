@@ -1,0 +1,21 @@
+Artifact Name: Background Suppression Failure
+Modality: ASL MRI
+Category: Technical
+
+Short Description:
+Background suppression failure occurs when static tissue signals are not properly suppressed during ASL acquisition.
+
+How It Appears in Image:
+Images show unusually bright static tissue background, reducing contrast between perfusion signal and surrounding tissue.
+
+Primary Cause:
+Incorrect timing of inversion pulses or improper sequence parameter setup.
+
+Clinical Impact:
+Reduced sensitivity to perfusion changes and inaccurate cerebral blood flow estimation.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Optimize inversion timing parameters and verify sequence configuration before acquisition.

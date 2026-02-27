@@ -1,0 +1,21 @@
+Artifact Name: Calibration Error
+Modality: ASL MRI
+Category: Quantification
+
+Short Description:
+Incorrect calibration leads to inaccurate perfusion quantification.
+
+How It Appears in Image:
+Perfusion maps show globally incorrect cerebral blood flow values.
+
+Primary Cause:
+Improper reference scan acquisition or scaling factor error.
+
+Clinical Impact:
+Misleading quantitative interpretation.
+
+Severity Level:
+Severe
+
+Common Fix:
+Verify calibration scans and ensure correct scaling during processing.

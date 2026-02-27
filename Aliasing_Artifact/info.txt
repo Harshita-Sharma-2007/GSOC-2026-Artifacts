@@ -1,0 +1,21 @@
+Artifact Name: Aliasing Artifact
+Modality: ASL MRI
+Category: Acquisition
+
+Short Description:
+Aliasing occurs when the field of view is smaller than the imaged anatomy.
+
+How It Appears in Image:
+Parts of the brain appear wrapped around to the opposite side of the image.
+
+Primary Cause:
+Insufficient field of view during acquisition.
+
+Clinical Impact:
+Misinterpretation of anatomical structures.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Increase field of view and adjust phase encoding direction.

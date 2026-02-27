@@ -1,0 +1,26 @@
+Artifact Name: Motion Artifact
+Modality: ASL MRI
+Category: Motion
+
+Short Description:
+Motion artifact occurs when the patient moves during the ASL scan,
+causing misalignment between images and unreliable perfusion values.
+
+How It Appears in Image:
+Motion artifact appears as blurring, ghosting, or misaligned brain
+structures across ASL images, especially between control and label images.
+
+Primary Cause:
+Patient movement during scan acquisition, especially between label
+and control images.
+
+Clinical Impact:
+Motion artifact can lead to incorrect cerebral blood flow values,
+reducing the reliability of ASL results.
+
+Severity Level:
+Moderate to Severe
+
+Common Fix:
+Instruct patient to stay still, use motion correction during preprocessing,
+and reject scans with excessive motion.

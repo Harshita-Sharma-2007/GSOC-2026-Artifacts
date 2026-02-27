@@ -1,0 +1,21 @@
+Artifact Name: Low Signal-to-Noise Ratio
+Modality: ASL MRI
+Category: Signal Quality
+
+Short Description:
+Low SNR occurs when perfusion signal is weak relative to background noise.
+
+How It Appears in Image:
+Grainy appearance with poor contrast and unstable perfusion maps.
+
+Primary Cause:
+Low labeling efficiency, short acquisition time, or patient motion.
+
+Clinical Impact:
+Reduced diagnostic reliability and increased measurement variability.
+
+Severity Level:
+Moderate to Severe
+
+Common Fix:
+Increase number of averages, optimize labeling parameters, and reduce motion.

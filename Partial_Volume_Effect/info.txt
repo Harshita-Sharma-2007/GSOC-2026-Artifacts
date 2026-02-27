@@ -1,0 +1,21 @@
+Artifact Name: Partial Volume Effect
+Modality: ASL MRI
+Category: Imaging Limitation
+
+Short Description:
+Signal mixing occurs when a voxel contains multiple tissue types.
+
+How It Appears in Image:
+Blurring between gray matter, white matter, and cerebrospinal fluid regions.
+
+Primary Cause:
+Limited spatial resolution.
+
+Clinical Impact:
+Inaccurate perfusion quantification, especially in cortical regions.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Use higher spatial resolution and apply partial volume correction algorithms.

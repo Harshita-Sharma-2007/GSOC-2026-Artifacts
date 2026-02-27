@@ -1,0 +1,21 @@
+Artifact Name: Labeling Failure
+Modality: ASL MRI
+Category: Technical
+
+Short Description:
+Labeling failure occurs when arterial blood is not properly magnetically labeled.
+
+How It Appears in Image:
+Very low or absent perfusion signal across the entire brain.
+
+Primary Cause:
+Incorrect placement of labeling plane or hardware malfunction.
+
+Clinical Impact:
+Invalid cerebral blood flow quantification.
+
+Severity Level:
+Severe
+
+Common Fix:
+Reposition labeling plane and verify labeling pulse parameters.

@@ -1,0 +1,21 @@
+Artifact Name: Susceptibility Artifact
+Modality: ASL MRI
+Category: Magnetic Field
+
+Short Description:
+Signal distortion caused by magnetic field inhomogeneity near air-tissue interfaces.
+
+How It Appears in Image:
+Geometric distortion or signal dropout near sinuses and ear regions.
+
+Primary Cause:
+Magnetic susceptibility differences between tissues and air.
+
+Clinical Impact:
+Localized loss of perfusion information.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Use distortion correction techniques and optimized acquisition sequences.

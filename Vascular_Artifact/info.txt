@@ -1,0 +1,21 @@
+Artifact Name: Vascular Artifact
+Modality: ASL MRI
+Category: Physiological
+
+Short Description:
+Intravascular signal remains visible due to incomplete suppression of labeled blood.
+
+How It Appears in Image:
+Bright linear or tubular structures corresponding to arteries.
+
+Primary Cause:
+Short post-labeling delay or incomplete vascular crushing.
+
+Clinical Impact:
+Overestimation of perfusion in arterial regions.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Increase post-labeling delay and apply vascular crushing gradients.

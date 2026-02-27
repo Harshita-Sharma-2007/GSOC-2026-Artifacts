@@ -1,0 +1,21 @@
+Artifact Name: Coil Sensitivity Variation
+Modality: ASL MRI
+Category: Hardware
+
+Short Description:
+Signal intensity variation caused by uneven sensitivity of multi-channel receiver coils.
+
+How It Appears in Image:
+Gradual intensity shading across the image, often brighter near the coil and darker farther away.
+
+Primary Cause:
+Non-uniform radiofrequency coil sensitivity profile.
+
+Clinical Impact:
+Misinterpretation of perfusion asymmetry and biased quantitative measurements.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Apply coil sensitivity correction or intensity normalization during preprocessing.
