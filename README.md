@@ -1,89 +1,153 @@
 # ASL MRI Artifact Dictionary & Quality Control Foundations
 
-## Overview
-This repository is part of my preparation for **GSoC 2026 (Project #7 – Quality Check Toolbox / ASL-DCE related work)**.  
-The project focuses on building a **structured and standardized artifact dictionary for ASL MRI**, intended to serve as a foundational component for automated Quality Control (QC) pipelines.
+## Introduction
 
-The repository documents common ASL MRI artifacts in a consistent, reproducible, and extensible format, enabling future integration with QC metrics, automated detection systems, and benchmarking frameworks.
+This repository is developed as part of my preparation for **:contentReference[oaicite:0]{index=0} 2026**, aligned with **Project #7 – Quality Check Toolbox (ASL/DCE-related work)**.
 
----
+The goal of this project is to build **foundational, reusable components for automated Quality Control (QC) in ASL MRI**, starting from a structured artifact knowledge base and evolving toward interactive, scalable tooling.
 
-## Motivation
-Arterial Spin Labeling (ASL) MRI is highly sensitive to acquisition and physiological artifacts such as motion, labeling failure, low signal-to-noise ratio, and background suppression issues.  
-Currently, artifact-related knowledge is scattered across research papers and informal documentation, making automation and standardization difficult.
-
-This project aims to:
-- Centralize ASL MRI artifact knowledge
-- Standardize artifact definitions and descriptions
-- Enable reproducible and scalable QC workflows
-- Support future automation and validation efforts
+Rather than focusing on isolated scripts, this work emphasizes **standardization, reproducibility, and extensibility**, which are critical for research-grade QC systems.
 
 ---
 
-## Repository Structure
-```
-Artifacts/
-│
-├── Motion_Artifact/
-│ └── info.txt
-├── Labeling_Failure/
-│ └── info.txt
-├── Low_Signal_to-Noise_Ratio_(Low_SNR)/
-│ └── info.txt
-├── Background_Suppression_Failure/
-│ └── info.txt
-├── Aliasing_Artifact/
-│ └── info.txt
-├── Susceptibility_Artifact/
-│ └── info.txt
-├── Partial_Volume_Effect/
-│ └── info.txt
-├── Vascular_Artifact/
-│ └── info.txt
-├── Calibration_Error/
-│ └── info.txt
-├── Coil_Sensitivity_Variation/
-│ └── info.txt
-```
-Each artifact folder contains an `info.txt` file describing:
-- Artifact name and category
-- Imaging modality
-- Visual appearance in ASL images
-- Primary causes
-- Clinical impact
-- Severity level
-- Common mitigation or correction strategies
+## Project Idea (In Brief)
+
+Quality Control in ASL MRI relies heavily on expert interpretation of artifacts such as motion, labeling failure, low SNR, and background suppression issues.  
+However, this expertise is often undocumented, inconsistent, or scattered across literature.
+
+This project addresses that gap by:
+
+- Creating a **standardized artifact dictionary** for ASL MRI
+- Building **tooling to explore, search, and export artifact knowledge**
+- Laying the groundwork for **automation-ready QC pipelines**
+
+The repository is intentionally designed as a **core knowledge and interaction layer**, rather than a one-off implementation.
+
+---
+
+## Tasks Overview
+
+The work is structured into **five incremental tasks**, each building toward a scalable QC system:
+
+1. Artifact Dictionary Design  
+2. Artifact Browser & Search System  
+3. Machine-Readable Artifact Mapping  
+4. QC Metric Integration  
+5. Extensible QC Tooling & Reporting  
+
+At present, **Task 1 and Task 2 are fully implemented**, with later tasks planned.
+
+---
+
+## Task 1: ASL MRI Artifact Dictionary (Detailed)
+
+### Description
+Task 1 focuses on building a **structured and standardized artifact dictionary** for ASL MRI.
+
+Each artifact is represented as a dedicated folder containing an `info.txt` file with consistent fields, including:
+
+- Artifact name and category  
+- Imaging modality  
+- Visual appearance in ASL images  
+- Primary causes  
+- Clinical and QC impact  
+- Severity level  
+- Common mitigation strategies  
+
+### Uniqueness of Task 1
+
+Unlike informal documentation or ad-hoc notes, this artifact dictionary:
+
+- Enforces **uniform structure across all artifacts**
+- Is **version-controlled and reproducible**
+- Separates **domain knowledge from code**, enabling reuse
+- Is designed to be **automation-ready**, not just descriptive
+- Acts as a **knowledge layer** that can plug into QC pipelines
+
+This makes the dictionary suitable for:
+- Automated QC systems
+- Benchmarking and validation workflows
+- Educational and documentation use
+- Future machine-readable transformations (JSON/YAML)
+
+---
+
+## Task 2: Artifact Browser & Search System (Detailed)
+
+### Description
+Task 2 introduces an **interactive artifact browser and search engine** that operates directly on the artifact dictionary.
+
+The system allows users to:
+
+- Browse available artifacts dynamically
+- View structured artifact descriptions
+- Search artifacts using multiple logical modes
+- Export selected results in reproducible formats
+
+### Search Engine Capabilities
+The search system supports:
+
+- **AND logic search** – all keywords must match  
+- **OR logic search** – any keyword may match  
+- **Regex-based search** – expert-level pattern querying  
+
+Search results are **scored and ranked by relevance**, not simply matched.
+
+### Uniqueness of Task 2
+
+This is not a basic file or keyword search.
+
+Key distinguishing aspects include:
+
+- Searches both **artifact names and full descriptions**
+- Supports **logical and regex-based querying**
+- Implements **relevance scoring and ranking**
+- Maintains a **uniform workflow** across all modes
+- Enables **structured export (JSON)** for downstream automation
+- Enables **human-readable export (PDF)** for reporting
+
+The system is designed as an **interaction layer**, bridging static artifact knowledge and future automated QC logic.
 
 ---
 
 ## Current Status
-- ✅ 10 ASL MRI artifacts documented
-- ✅ Consistent and structured artifact format
-- ✅ Version-controlled and publicly available
-- ✅ Ready for extension into automated QC pipelines
+
+- ✅ 10 ASL MRI artifacts documented in a standardized format  
+- ✅ Fully functional artifact browser  
+- ✅ Multi-mode search engine (AND / OR / Regex)  
+- ✅ Relevance-ranked results  
+- ✅ JSON and PDF export support  
+- ✅ Clean, uniform workflow across all modes  
 
 ---
 
-## Planned Extensions
-- Conversion of artifact descriptions into machine-readable formats (JSON/YAML)
-- Mapping artifacts to measurable QC metrics (motion parameters, spatial CoV, M0 checks)
+## Planned Extensions (Tasks 3–5)
+
+- Conversion of artifact knowledge into machine-readable schemas
+- Mapping artifacts to quantitative QC metrics
 - Integration with Quality Check Toolbox pipelines
-- Addition of visual examples and detection heuristics
-- Support for automated QC reporting and dashboards
+- Inclusion of example MRI data and detection heuristics
+- Automated QC reporting and dashboards
+- Web-based interface for broader accessibility
 
 ---
 
-## Scope & Relevance
-This artifact dictionary is designed to act as a **core knowledge layer** for Quality Control systems in ASL MRI.  
-It can be reused across:
-- Research benchmarking
-- Automated QC toolchains
-- Clinical validation pipelines
-- Educational and documentation purposes
+## Closing Note
+
+This repository is intentionally designed as a **foundation**, not a final product.
+
+The emphasis is on:
+- Clean structure
+- Reproducibility
+- Scalability
+- Research-grade design principles
+
+These components are meant to evolve into a comprehensive QC system for ASL MRI, aligned with open-source research workflows.
 
 ---
 
 ## Author
+
 **Harshita Sharma**  
 GSoC 2026 Aspirant  
 Interests: Python development, reproducible systems, medical imaging quality control
