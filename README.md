@@ -125,13 +125,13 @@ The system is designed as an **interaction layer**, bridging static artifact kno
 
 ## Focused Artifacts
 
--B₀ inhomogeneity effects
--B₁ inhomogeneity effects
--RF interferences
--Chemical shift artifacts
--Ghosting artifacts
--Parallel imaging artifacts
--Arterial artifacts
+- B₀ inhomogeneity effects
+- B₁ inhomogeneity effects
+- RF interferences
+- Chemical shift artifacts
+- Ghosting artifacts
+- Parallel imaging artifacts
+- Arterial artifacts
 
 ---
 
