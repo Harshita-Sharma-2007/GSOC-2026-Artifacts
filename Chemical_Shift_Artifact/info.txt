@@ -1,0 +1,21 @@
+Artifact Name: Chemical Shift Artifact
+Modality: ASL MRI
+Category: Physical
+
+Short Description:
+Chemical shift artifact occurs due to differences in resonance frequencies between fat and water protons.
+
+How It Appears in Image:
+Fat and water boundaries appear misaligned, creating bright or dark bands at tissue interfaces.
+
+Primary Cause:
+Frequency differences between fat and water signals during image encoding.
+
+Clinical Impact:
+May lead to incorrect interpretation of tissue boundaries.
+
+Severity Level:
+Low to Moderate
+
+Common Fix:
+Use fat suppression techniques or increase receiver bandwidth.

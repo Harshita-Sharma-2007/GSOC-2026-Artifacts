@@ -1,0 +1,21 @@
+Artifact Name: B₀ Inhomogeneity
+Modality: ASL MRI
+Category: Magnetic Field Artifact
+
+Short Description:
+B₀ inhomogeneity occurs when the main magnetic field inside the MRI scanner is not perfectly uniform across the imaging region.
+
+How It Appears in Image:
+Images may show signal loss, distortion, or spatial misalignment, especially near air–tissue interfaces such as sinuses.
+
+Primary Cause:
+Magnetic susceptibility differences between tissues or improper magnetic field shimming.
+
+Clinical Impact:
+May lead to inaccurate localization of perfusion signals and distortion of anatomical structures.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Apply proper shimming and use field correction techniques during image acquisition or reconstruction.

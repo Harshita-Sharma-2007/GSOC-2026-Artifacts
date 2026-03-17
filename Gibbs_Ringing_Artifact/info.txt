@@ -1,0 +1,21 @@
+Artifact Name: Gibbs Ringing Artifact
+Modality: ASL MRI
+Category: Reconstruction
+
+Short Description:
+Gibbs ringing artifact occurs due to limited sampling in k-space during image reconstruction.
+
+How It Appears in Image:
+Alternating bright and dark lines appear near sharp edges in the image.
+
+Primary Cause:
+Truncation of high-frequency components during Fourier reconstruction.
+
+Clinical Impact:
+Can mimic small structures or lesions, leading to misinterpretation.
+
+Severity Level:
+Low
+
+Common Fix:
+Increase spatial resolution or apply filtering during reconstruction.

@@ -1,0 +1,21 @@
+Artifact Name: B₁ Inhomogeneity
+Modality: ASL MRI
+Category: RF Field Artifact
+
+Short Description:
+B₁ inhomogeneity occurs when the radiofrequency transmit field is uneven across the imaging region.
+
+How It Appears in Image:
+Some regions appear brighter or darker than expected due to uneven flip angles.
+
+Primary Cause:
+Uneven RF transmission caused by coil design limitations or patient anatomy.
+
+Clinical Impact:
+Leads to inaccurate signal intensity and unreliable perfusion measurements.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Use RF calibration techniques or advanced coil designs to improve RF field uniformity.

@@ -1,0 +1,21 @@
+Artifact Name: Parallel Imaging Artifact
+Modality: ASL MRI
+Category: Reconstruction
+
+Short Description:
+Parallel imaging artifacts occur when accelerated imaging techniques reconstruct incomplete data inaccurately.
+
+How It Appears in Image:
+Images may show noise amplification or residual aliasing patterns.
+
+Primary Cause:
+High acceleration factors or inaccurate coil sensitivity estimation.
+
+Clinical Impact:
+Reduces signal-to-noise ratio and affects reliability of perfusion quantification.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Reduce acceleration factor or improve coil sensitivity calibration.

@@ -1,0 +1,21 @@
+Artifact Name: Arterial Transit Artifact
+Modality: ASL MRI
+Category: Physiological
+
+Short Description:
+Arterial transit artifact occurs when labeled blood has not yet reached the tissue at the time of imaging.
+
+How It Appears in Image:
+Bright signals appear along arteries instead of within the brain tissue.
+
+Primary Cause:
+Delayed arterial transit time or improper post-labeling delay settings.
+
+Clinical Impact:
+Can lead to overestimation of perfusion or misinterpretation of vascular signals.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Adjust post-labeling delay or use multi-delay ASL acquisition techniques.

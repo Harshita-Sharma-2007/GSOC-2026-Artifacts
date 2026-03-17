@@ -1,0 +1,21 @@
+Artifact Name: Ghosting Artifact
+Modality: ASL MRI
+Category: Motion
+
+Short Description:
+Ghosting artifacts occur when moving structures create repeated or shifted copies of the image.
+
+How It Appears in Image:
+Replicated “ghost” structures appear along the phase-encoding direction.
+
+Primary Cause:
+Patient motion, blood flow, or physiological movements such as breathing or heartbeat.
+
+Clinical Impact:
+Reduces clarity of perfusion maps and may obscure diagnostic features.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Use motion correction methods and instruct patients to remain still during scanning.

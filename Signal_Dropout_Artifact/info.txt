@@ -1,0 +1,21 @@
+Artifact Name: Signal Dropout Artifact
+Modality: ASL MRI
+Category: Magnetic Field Artifact
+
+Short Description:
+Signal dropout occurs when local magnetic field variations cause a complete loss of signal in certain image regions.
+
+How It Appears in Image:
+Dark areas with little or no signal, often near sinuses or air cavities.
+
+Primary Cause:
+Magnetic susceptibility differences between tissues and air.
+
+Clinical Impact:
+Important anatomical or perfusion information may be lost.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Adjust echo time or use sequences less sensitive to susceptibility effects.

@@ -1,0 +1,21 @@
+Artifact Name: Eddy Current Artifact
+Modality: ASL MRI
+Category: Technical
+
+Short Description:
+Eddy current artifacts occur when rapidly changing magnetic gradients induce secondary currents in conductive components of the MRI system.
+
+How It Appears in Image:
+Geometric distortions or intensity shifts appear in the image, often along the phase encoding direction.
+
+Primary Cause:
+Rapid switching of gradient coils that generate unwanted secondary magnetic fields.
+
+Clinical Impact:
+Can distort anatomical structures and affect perfusion signal accuracy.
+
+Severity Level:
+Moderate
+
+Common Fix:
+Use gradient compensation techniques and optimized sequence design.
