@@ -2,11 +2,13 @@
 
 ## Introduction
 
-This repository is developed as part of my preparation for **:contentReference[oaicite:0]{index=0} 2026**, aligned with **Project #7 – Quality Check Toolbox (ASL/DCE-related work)**.
+This repository is developed as part of my preparation for **GSoc 2026**, aligned with **Project #7 – Quality Check Toolbox (ASL/DCE-related work)**.
 
 The goal of this project is to build **foundational, reusable components for automated Quality Control (QC) in ASL MRI**, starting from a structured artifact knowledge base and evolving toward interactive, scalable tooling.
 
 Rather than focusing on isolated scripts, this work emphasizes **standardization, reproducibility, and extensibility**, which are critical for research-grade QC systems.
+
+The idea is to conceptually connect the two GSoC directions (AURA and the QC Toolbox), but without depending on the completion of Project 4. To ensure the platform remains functional and independent, I plan to implement a lightweight, integration-focused QC layer within my own project.
 
 ---
 
@@ -112,12 +114,24 @@ The system is designed as an **interaction layer**, bridging static artifact kno
 
 ## Current Status
 
-- ✅ 10 ASL MRI artifacts documented in a standardized format  
+- ✅ 20 ASL MRI artifacts documented in a standardized format  
 - ✅ Fully functional artifact browser  
 - ✅ Multi-mode search engine (AND / OR / Regex)  
 - ✅ Relevance-ranked results  
 - ✅ JSON and PDF export support  
 - ✅ Clean, uniform workflow across all modes  
+
+---
+
+## Focused Artifacts
+
+-B₀ inhomogeneity effects
+-B₁ inhomogeneity effects
+-RF interferences
+-Chemical shift artifacts
+-Ghosting artifacts
+-Parallel imaging artifacts
+-Arterial artifacts
 
 ---
 
