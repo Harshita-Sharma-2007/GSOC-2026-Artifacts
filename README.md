@@ -151,7 +151,9 @@ Key functionalities include:
 - ✅ Multi-mode search engine (AND / OR / Regex)  
 - ✅ Relevance-ranked results  
 - ✅ JSON and PDF export support  
-- ✅ Clean, uniform workflow across all modes  
+- ✅ Clean, uniform workflow across all modes
+- ✅ Artifact Diagnosis Mode implemented
+- ✅ Frontend and backend fully integrated and functional
 
 ---
 
@@ -167,7 +169,7 @@ Key functionalities include:
 
 ---
 
-## Planned Extensions (Tasks 3–5)
+## Planned Extensions (Tasks 4-8)
 
 - Conversion of artifact knowledge into machine-readable schemas  
 - Mapping artifacts to quantitative QC metrics  
